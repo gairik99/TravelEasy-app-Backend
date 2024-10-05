@@ -9,13 +9,14 @@ import hotelRouter from './routes/hotel.router.js';
 import categoryRouter from './routes/category.router.js'
 import singleHotelRouter from './routes/singlehotel.router.js'
 import authRouter from './routes/auth.router.js'
+import wishlistRouter from './routes/wishlist.router.js'
 
 const app = express();
 
 app.use(json());
 connectDB();
 
-const PORT = 8500;
+const PORT = 3500;
 app.get("/", (req, res) => {
     res.send('Hello,geek');
 })
@@ -26,6 +27,7 @@ app.use("/api/hotels", hotelRouter);
 app.use("/api/category", categoryRouter);
 app.use("/api/hotels", singleHotelRouter);
 app.use("/api/auth", authRouter);
+app.use("/api/wishlist", wishlistRouter);
 
 mongoose.connection.once('open', () => {
     console.log('connecting.........')
