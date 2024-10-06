@@ -1,6 +1,7 @@
 import express, { json } from 'express';
 import { mongoose } from 'mongoose';
 import connectDB from './config/dbconfig.js';
+import cors from 'cors';
 
 import hotelDataAddedToDBRoute from './routes/dataimport.router.js';
 import categoryDataAddedToDBRoute from './routes/categoryimport.router.js';
@@ -12,6 +13,7 @@ import authRouter from './routes/auth.router.js'
 import wishlistRouter from './routes/wishlist.router.js'
 
 const app = express();
+app.use(cors());
 
 app.use(json());
 connectDB();
