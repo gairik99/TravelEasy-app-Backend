@@ -3,25 +3,25 @@
 THIS IS TRAVELEASY APP BACKEND
 
 ## APIS
-- /api/hoteldata(POST)<br/>
+- /api/hoteldata(POST)<br/><br/>
 All hoteldata added to database
 
-- /api/categorydata(POST)
+- /api/categorydata(POST)<br/><br/>
 All category data added to database
 
-- /api/hotels(GET)
+- /api/hotels(GET)<br/><br/>
 Get all hotels data
 
-- /api/category(GET)
+- /api/category(GET)<br/><br/>
 Get categorywise hotel data
 
-- /api/hotels/:id(GET)
+- /api/hotels/:id(GET)<br/><br/>
 Get a specific hotel data
 
-- /api/wishlist(GET)
+- /api/wishlist(GET)<br/><br/>
 Get wishlist data
 
-- /api/auth(GET & POST)
+- /api/auth(GET & POST)<br/><br/>
 register and signup
 
 
