@@ -9,19 +9,19 @@ All hoteldata added to database
 - /api/categorydata(POST)
 All category data added to database
 
--/api/hotels(GET)
+- /api/hotels(GET)
 Get all hotels data
 
--/api/category(GET)
+- /api/category(GET)
 Get categorywise hotel data
 
--/api/hotels/:id(GET)
+- /api/hotels/:id(GET)
 Get a specific hotel data
 
--/api/wishlist(GET)
+- /api/wishlist(GET)
 Get wishlist data
 
--/api/auth(GET & POST)
+- /api/auth(GET & POST)
 register and signup
 
 
