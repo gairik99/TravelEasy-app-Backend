@@ -23,9 +23,11 @@ In the task page, you can add your main/focus task of the day, once you complete
 - ReactJs
 ## Live Link
 
-- https://dailyroutinemanager.netlify.app
+- [https://dailyroutinemanager.netlify.app](https://travellapp-b9k7.onrender.com
 
 
 
+
+##  ER DIAGRAM
 
 ![Doc3-1](https://github.com/user-attachments/assets/fbfed5c4-ba59-4a65-a9bf-6236b4acccf1)
