@@ -3,7 +3,7 @@
 THIS IS TRAVELEASY APP BACKEND
 
 ## APIS
-- /api/hoteldata(POST)
+- /api/hoteldata(POST)<br/>
 All hoteldata added to database
 
 - /api/categorydata(POST)
