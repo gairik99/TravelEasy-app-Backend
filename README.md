@@ -35,10 +35,10 @@ register and signup
 
 ##  Tech Stack
 - Node.js
--Express.js
+- Express.js
 ## Live Link
 
-- [https://dailyroutinemanager.netlify.app](https://travellapp-b9k7.onrender.com
+- https://dailyroutinemanager.netlify.app](https://travellapp-b9k7.onrender.com
 
 
 
