@@ -22,7 +22,7 @@ Get a specific hotel data
 Get wishlist data
 
 - /api/auth(GET & POST)<br/><br/>
-register and signup
+register and signup(JWT AUTHENTICATION)
 
 
 
@@ -38,7 +38,7 @@ register and signup
 - Express.js
 ## Live Link
 
-- https://dailyroutinemanager.netlify.app](https://travellapp-b9k7.onrender.com
+- https://travellapp-b9k7.onrender.com
 
 
 
